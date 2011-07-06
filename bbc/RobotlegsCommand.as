@@ -12,9 +12,9 @@ import org.robotlegs.mvcs.Command;
 
 public class <%= class_name %> extends Command
 {
-	override public function execute():void
-	{
-		//Your command content goes here dude
-	}
+    override public function execute():void
+    {
+        //Your command content goes here dude
+    }
 }
 }
