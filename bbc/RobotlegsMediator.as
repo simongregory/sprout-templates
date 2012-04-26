@@ -7,8 +7,7 @@
 package <%= package_name %>
 
 {
-
-import org.robotlegs.mvcs.Mediator;
+import org.robotlegs.mvcs.Mediator
 
 public class <%= class_name %> extends Mediator
 {
