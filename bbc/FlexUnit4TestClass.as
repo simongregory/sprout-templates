@@ -7,7 +7,8 @@
 package <%= package_name %>
 
 {
-import org.flexunit.Assert
+import org.hamcrest.assertThat;
+import org.hamcrest.object.instanceOf;
 
 import mockolate.runner.MockolateRunner;
 
@@ -34,7 +35,7 @@ public class <%= test_class_name %>
     [Test]
     public function should_be_instantiated():void
     {
-        Assert.assertTrue("<%= instance_name %> is <%= class_name %>", <%= instance_name %> is <%= class_name %>)
+        assertThat(<%= instance_name %>, instanceOf(class_name))
     }
 }
 }
