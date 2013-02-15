@@ -1,7 +1,7 @@
 //AS3///////////////////////////////////////////////////////////////////////////
-// 
-// Copyright MMXII British Broadcasting Corporation. All Rights Reserved.
-// 
+//
+// Copyright MMXIII British Broadcasting Corporation. All Rights Reserved.
+//
 ////////////////////////////////////////////////////////////////////////////////
 
 package <%= package_name %>
@@ -9,6 +9,11 @@ package <%= package_name %>
 {
 import org.flexunit.Assert
 
+import mockolate.runner.MockolateRunner;
+
+MockolateRunner;
+
+[RunWith("mockolate.runner.MockolateRunner")]
 public class <%= test_class_name %>
 
 {
