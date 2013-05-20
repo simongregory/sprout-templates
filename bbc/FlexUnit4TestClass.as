@@ -35,7 +35,7 @@ public class <%= test_class_name %>
     [Test]
     public function should_be_instantiated():void
     {
-        assertThat(<%= instance_name %>, instanceOf(class_name))
+        assertThat(<%= instance_name %>, instanceOf(<%= class_name %>))
     }
 }
 }
